@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+  /* 
+  Color Note
+  Line Colour: #000
+  White: #F0F1EC
+  Red: #E72F24
+  Black: #232629
+  Blue: #004592
+  Yellow: #F9D01E
+  */
+  html{
+    background-color: black;
+  }
+  body{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container{
+    height: 747px;
+    width: 748px;
+    background-color: black;
+    gap: 9px;
+    display: grid;
+    grid-template-columns: 320px 198px 153px 50px;
+    grid-template-rows: 414px 130px 155px 20px;
+  }
+
+  .red{
+    background-color: #E72F24;
+  }
+  .w{
+    background-color: #F0F1EC;
+  }
+  .blue{
+    background-color: #004592;
+    border-bottom: 10px;
+  }
+  .yellow{
+    background-color: #F9D01E;
+  }
+  .black{
+    background-color: #232629;
+  }
+
+  .white1{
+    grid-column: span 3;
+  }
+
+  .white2{
+    grid-row: span 2;
+  }
+
+  .white3{
+    grid-area: 2/2/4/4;
+  }
+
+  .white4{
+    grid-row: span 2;
+  }
+
+  </style>
+</head>
+
+
+
+<body>
+  <div class="container">
+    <div class="item red"></div>
+    <div class="item w white1"></div>
+    <div class="item w white2"></div>
+    <div class="item w white3"></div>
+
+    <div class="item blue"></div>
+    <div class="item w white4"></div>
+
+    <div class="item w white5"></div>
+    <div class="item yellow"></div>
+    <div class="item black"></div>
+  </div>
+</body>
+
+</html>

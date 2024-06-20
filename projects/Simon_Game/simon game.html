@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+
+    <link rel="stylesheet" href="./simon_game.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body class="none">
+    
+    <h1>Press Any Key to Start</h1>
+    <h1 class="state"><center></center></h1>
+
+    <div class="container">
+        <button class="key press1" onclick="green()">1</button>
+        <button class="key press2" onclick="red()">2</button>
+        <button class="key press3" onclick="yellow()">3</button>
+        <button class="key press4" onclick="blue()">4</intbutton>
+    </div>
+
+
+    <audio id="blue" src="../../Assets/simon game/blue.mp3"></audio>
+    <audio id="green" src="../../Assets/simon game/green.mp3"></audio>
+    <audio id="red" src="../../Assets/simon game/red.mp3"></audio>
+    <audio id="wrong" src="../../Assets/simon game/wrong.mp3"></audio>
+    <audio id="yellow" src="../../Assets/simon game/yellow.mp3"></audio>
+
+    <button onclick="main()" id="mobile">START</button>
+    <script src="./simon_game.js" charset="UTF-8"></script>
+</body>
+</html>

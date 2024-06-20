@@ -1,0 +1,152 @@
+html{
+    background-color: black;
+}
+.border{
+    height: 500px;
+    aspect-ratio: 3/2;
+}
+
+.orange{
+    background-color: #FF671F;
+    height: 33.33%;
+    width: 100%;
+}
+
+.white{
+    background-color: rgb(255, 255, 255);
+    height: 33.33%;
+    width: 100%;
+}
+
+.green{
+    background-color: #046A38;
+    height: 33.33%;
+    width: 100%;
+}
+
+.chakra{
+    background-color: #06038D;
+    height: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chakra2{
+    background-color: white;
+    height: 93%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dandas1{
+    background-color: #06038D;
+    height: 100%;
+    aspect-ratio: 1/25; 
+    position: absolute;
+}
+
+
+
+
+.dandas2{
+    background-color: #06038D;
+    height: 100%;
+    aspect-ratio: 1/25; 
+    position: absolute; 
+    transform: rotate(15deg);
+}
+
+.dandas3{
+    background-color: #06038D;
+    height: 100%;
+    aspect-ratio: 1/25; 
+    position: absolute;
+    transform: rotate(30deg);
+}
+
+.dandas4{
+    background-color: #06038D;
+    height: 100%;
+    aspect-ratio: 1/25; 
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.dandas5{
+    background-color: #06038D;
+    height: 100%;
+    aspect-ratio: 1/25; 
+    position: absolute;
+    transform: rotate(60deg);
+}
+
+.dandas6{
+    background-color: #06038D;
+    height: 100%;
+    aspect-ratio: 1/25; 
+    position: absolute;
+    transform: rotate(75deg);
+}
+
+.dandas7{
+    background-color: #06038D;
+    height: 100%;
+    aspect-ratio: 1/25; 
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+.dandas8{
+    background-color: #06038D;
+    height: 100%;
+    aspect-ratio: 1/25; 
+    position: absolute;
+    transform: rotate(105deg);
+}
+
+.dandas9{
+    background-color: #06038D;
+    height: 100%;
+    aspect-ratio: 1/25; 
+    position: absolute;
+    transform: rotate(120deg);
+}
+
+.dandas10{
+    background-color: #06038D;
+    height: 100%;
+    aspect-ratio: 1/25; 
+    position: absolute;
+    transform: rotate(135deg);
+}
+
+.dandas11{
+    background-color: #06038D;
+    height: 100%;
+    aspect-ratio: 1/25; 
+    position: absolute;
+    transform: rotate(150deg);
+}
+
+.dandas12{
+    background-color: #06038D;
+    height: 100%;
+    aspect-ratio: 1/25; 
+    position: absolute; 
+    transform: rotate(165deg);
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
